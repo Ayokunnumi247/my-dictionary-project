@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Dictionary />
+      {""}
       <footer>
         The project was code {""}
         <a
