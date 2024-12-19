@@ -1,13 +1,20 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import logo from "./images-dictionary.png";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <Dictionary />
+      <img
+        src={logo}
+        alt="img-dictionary"
+        rel="noopener noreferrer"
+        className="img-fluid"
+      />
+      <Dictionary defaultKeyword="Hello" />
       {""}
       <footer>
-        The project was code {""}
+        The project was code by{""}
         <a
           href="https://github.com/Ayokunnumi247"
           target="blank"

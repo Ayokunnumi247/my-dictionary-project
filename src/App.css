@@ -1,4 +1,12 @@
 .App {
+  margin: 50px auto;
+}
+.App footer {
+  text-align: center;
+  margin: 50px;
+}
+.App img {
+  max-width: 150px;
+  display: block;
   margin: 0 auto;
-  max-width: 93%;
 }

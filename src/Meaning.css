@@ -1,0 +1,16 @@
+.Meaning h4 {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Meaning .definitions {
+  font-size: 18px;
+}
+.Meaning .example {
+  font-style: italic;
+  opacity: 0.7;
+  font-size: 15px;
+}
