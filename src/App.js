@@ -16,7 +16,7 @@ function App(props) {
       <Dictionary defaultKeyword="Welcome" />
       {""}
       <footer>
-        The project was code by{""}
+        The project was code by {""}
         <a
           href="https://github.com/Ayokunnumi247"
           target="blank"
