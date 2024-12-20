@@ -4,3 +4,8 @@
   line-height: 1.5;
   text-transform: capitalize;
 }
+.Results .error {
+  text-align: center;
+  font-size: 25px;
+  color: red;
+}

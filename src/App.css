@@ -1,12 +1,13 @@
 .App {
-  margin: 50px auto;
+  margin: 10px auto;
 }
 .App footer {
   text-align: center;
   margin: 50px;
 }
 .App img {
-  max-width: 150px;
+  max-width: 250px;
+  height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
 }

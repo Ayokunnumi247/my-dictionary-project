@@ -3,7 +3,13 @@ import Meaning from "./Meaning";
 import "./Results.css";
 
 export default function Results(props) {
-  if (props.results) {
+  if (props.error) {
+    return (
+      <div className="Results">
+        <p className="error">{props.error}</p>
+      </div>
+    );
+  } else if (props.results) {
     return (
       <div className="Results">
         <section>

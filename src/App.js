@@ -1,6 +1,8 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 import logo from "./images-dictionary.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function App(props) {
   return (
@@ -11,7 +13,7 @@ function App(props) {
         rel="noopener noreferrer"
         className="img-fluid"
       />
-      <Dictionary defaultKeyword="Hello" />
+      <Dictionary defaultKeyword="Welcome" />
       {""}
       <footer>
         The project was code by{""}

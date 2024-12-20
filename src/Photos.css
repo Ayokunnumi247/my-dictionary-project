@@ -1,0 +1,5 @@
+.Photos img {
+  max-width: 300px;
+  margin: 0;
+  padding: 5px;
+}
